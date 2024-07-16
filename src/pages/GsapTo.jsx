@@ -1,6 +1,8 @@
 const GsapTo = () => {
   // TODO: Implement the gsap.to() method
-
+  // rotate and move elements with a class of "box"
+  // ("x" is a shortcut for a translateX() transform) over the course of 1 second.
+  gsap.to(".box", { rotation: 27, x: 100, duration: 1 });
   return (
     <main>
       <h1>GsapTo</h1>
